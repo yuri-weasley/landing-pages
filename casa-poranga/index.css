@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+
+@import url(estilos/cabecalho.css);
+@import url(estilos/section1.css);
+@import url(estilos/section2.css);
+@import url(estilos/section3.css);
+@import url(estilos/section4.css);
+@import url(estilos/section5.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --fonte1: "DM Serif Display", serif;
+    --fonte2: 'Open Sauce One', sans-serif;
+    --corFundo: #FAEFE0;
+    --pretoTitulos: #282A29;
+    --laranjaEscuro: #AF4B27;
+    --laranjaClaro: #E87F3B;
+    --laranjaSimbolo: #E17E45;
+    --rosaMedio: #EFA593;
+    --rosaClaro: #FDB3CB;
+    --verdeEscuro: #5D7F64;
+    --verdeClaro: #97D8A5;
+    --amarelo: #F3B551;
+}
+body {
+    background-color: var(--corFundo);
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Configuração do ícone do wpp */
+.wpp {
+    position: fixed;
+    top: 92%;
+    left: 96%;
+}
+
+@media screen and (max-width: 1080px) {
+    .wpp {
+        top: 93%;
+        left: 91%;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 1079px) {
+    .wpp {
+        top: 90%;
+        left: 93%;
+    }
+}
