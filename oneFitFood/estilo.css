@@ -14,3 +14,25 @@
 .banners-titulo {
     --bs-bg-opacity: .2;
 }
+
+.contato a {
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.contato a:hover {
+    background-color: lightgrey;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    color: white;
+}
